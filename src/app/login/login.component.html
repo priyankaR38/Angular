@@ -1,0 +1,12 @@
+
+<form class="container " style="text-align: center; border: 5px; border-color: rgb(0, 0, 0);" >
+    <h2>Login Form</h2>
+
+<input type="email" name="email"placeholder="email"[(ngModel)]="loginobj.email"><br><br><br>
+<input type="password"name="password" placeholder="Password"[(ngModel)]="loginobj.password"><br><br>
+<button type="submit"(click)="onLogin()">Login</button>
+<br><br>
+<small>if u wont reggisterd   then go to Signup <a href="#" routerLink="/signup">Signup</a></small>
+
+
+</form>
